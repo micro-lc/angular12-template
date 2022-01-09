@@ -1,4 +1,4 @@
-FROM nginx:1.18.0-alpine as build
+FROM nginx:1.21.0-alpine as build
 
 LABEL name="microlc-angular-template" \
   description="This template showcases how to start setting up a micro-lc plugin project with navigation and the Angular framework" \
@@ -13,6 +13,6 @@ RUN touch ./off \
 
 WORKDIR /usr/static
 
-COPY ./dist .
+COPY ./dist/micro-lc-angular-template .
 
 USER nginx
