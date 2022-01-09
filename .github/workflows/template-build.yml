@@ -1,8 +1,4 @@
-name: Node.js fe-container CI
-
-env:
-  cache-name: cache-build
-  context: ./packages/fe-container/
+name: Template CI
 
 on:
   push:
@@ -31,13 +27,6 @@ jobs:
 
     - name: Make micro-lc build
       run: npm run build:micro-lc
-
-    - name: Cache build
-      if: ${{ (startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/master' || github.base_ref == 'master') && matrix.node-version == '14.x' }}
-      uses: actions/cache@v2
-      with:
-        path: ${{ env.context }}build
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ github.sha }}
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
