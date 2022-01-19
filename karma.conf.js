@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/micro-lc-angular-template'),
+      dir: require('path').join(__dirname, './coverage/mia_template_service_name_placeholder'),
       subdir: '.',
       reporters: [
         { type: 'html' },
