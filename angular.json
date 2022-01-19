@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "micro-lc-angular-template": {
+    "mia_template_service_name_placeholder": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "outputPath": "dist/micro-lc-angular-template",
+            "outputPath": "dist/mia_template_service_name_placeholder",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -36,7 +36,7 @@
             "scripts": [],
             "customWebpackConfig": {
               "path": "extra-webpack.config.js",
-              "libraryName": "micro-lc-angular-template",
+              "libraryName": "mia_template_service_name_placeholder",
               "libraryTarget": "umd"
             },
             "deployUrl": "http://localhost:4200/"
@@ -79,10 +79,10 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "micro-lc-angular-template:build:production"
+              "browserTarget": "mia_template_service_name_placeholder:build:production"
             },
             "development": {
-              "browserTarget": "micro-lc-angular-template:build:development"
+              "browserTarget": "mia_template_service_name_placeholder:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "micro-lc-angular-template:build"
+            "browserTarget": "mia_template_service_name_placeholder:build"
           }
         },
         "test": {
@@ -123,7 +123,7 @@
       }
     }
   },
-  "defaultProject": "micro-lc-angular-template",
+  "defaultProject": "mia_template_service_name_placeholder",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }
