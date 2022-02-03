@@ -31,6 +31,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 [github-actions]: https://github.com/micro-lc/micro-lc-angular-template/actions
-[github-actions-svg]: https://github.com/micro-lc/micro-lc-angular-template/workflows/Node.js%20CI/badge.svg
+[github-actions-svg]: https://github.com/micro-lc/micro-lc-angular-template/workflows/Template%20CI/badge.svg
 [coverall-svg]: https://coveralls.io/repos/github/micro-lc/micro-lc-angular-template/badge.svg?branch=master
 [coverall-io]: https://coveralls.io/github/micro-lc/micro-lc-angular-template?branch=master
