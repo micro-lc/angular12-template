@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "outputPath": "dist/mia_template_service_name_placeholder",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -39,7 +39,7 @@
               "libraryName": "mia_template_service_name_placeholder",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4200/"
+            "deployUrl": "/mia_template_service_name_placeholder/"
           },
           "configurations": {
             "production": {
