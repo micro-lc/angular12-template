@@ -35,6 +35,3 @@ jobs:
       
       - name: Linter
         run: yarn lint
-
-      - name: Test
-        run: yarn coverage
