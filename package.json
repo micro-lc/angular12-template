@@ -8,9 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "coverage": "ng test --no-watch --code-coverage",
-    "build:micro-lc": "ng build --prod --deploy-url /mia_template_service_name_placeholder/",
-    "serve:micro-lc": "ng serve --disable-host-check --port 4200 --base-href /angular-app --live-reload false"
+    "coverage": "ng test --no-watch --code-coverage"
   },
   "private": true,
   "dependencies": {
