@@ -5,16 +5,23 @@ import { Router, NavigationStart } from '@angular/router';
 
 import { singleSpaAngular, getSingleSpaExtraProviders } from 'single-spa-angular';
 
-
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-import { singleSpaPropsSubject } from './single-spa/single-spa-props';
+import { singleSpaPropsSubject } from './micro-lc/single-spa-props';
+
+import './public-path'
 
 if (environment.production) {
   enableProdMode();
+} else {
+  document.write(
+    `
+      <script type="text/javascript" src="https://unpkg.com/zone.js"></script>
+    `
+  );
 }
 
-if (!(window as any).__POWERED_BY_QIANKUN__) {
+if (!window.__POWERED_BY_QIANKUN__) {
   platformBrowserDynamic().bootstrapModule(AppModule).catch(console.error);
 }
 
