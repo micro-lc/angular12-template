@@ -35,7 +35,7 @@ corepack enable
 yarn install
 ```
 
-> 💡 **TIP**
+> **Note**
 >
 > If you whish to use NPM instead of Yarn, simply delete the `yarn.lock` file and run `npm install`.
 
@@ -78,7 +78,7 @@ The internal routing of the application is already set up to work in micro-lc, m
 routes is dynamically computed on the bases of micro-lc `<base>`, as explained in the 
 [official documentation](https://micro-lc.io/docs/guides/applications/parcels/#injectbase).
 
-> 💡 **TIP**
+> **Note**
 >
 > If you whish to use a hash router in your application, change `app-routing.module.ts` file as such:
 > 
@@ -125,7 +125,7 @@ micro-lc related module.
 </html>
 ```
 
-> ⚠️ **Warning**
+> **Warning**
 >
 > `zone.js` is also imported in the entrypoint of this application to make it work in development mode. Whereas it is
 > advisable to remove it before bundling for production, the import it can be kept as long as the version matches the one
