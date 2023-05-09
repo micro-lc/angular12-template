@@ -10,6 +10,7 @@ import { baseUrl } from 'src/micro-lc/base-url';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'about', component: AboutComponent},
+  // The following line is REQUIRED to properly work in micro-lc
   {path: '**', component: EmptyRouteComponent},
 ];
 
