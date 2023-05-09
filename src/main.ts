@@ -13,12 +13,6 @@ import './public-path'
 
 if (environment.production) {
   enableProdMode();
-} else {
-  document.write(
-    `
-      <script type="text/javascript" src="https://unpkg.com/zone.js"></script>
-    `
-  );
 }
 
 if (!window.__POWERED_BY_QIANKUN__) {
