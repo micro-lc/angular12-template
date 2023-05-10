@@ -24,26 +24,16 @@ necessary features to work both standalone and in micro-lc.
 
 ## Local development
 
-First thing you need to do is install the dependencies. Enable Yarn running 
+First thing you need to do is install the dependencies running
 
 ```sh
-corepack enable
+npm install
 ```
-
-(or install it as a global dependency with `npm i -g yarn` for Node < 16.9.0), and run 
-
-```sh
-yarn install
-```
-
-> **Note**
->
-> If you whish to use NPM instead of Yarn, simply delete the `yarn.lock` file and run `npm install`.
 
 Once you have the dependencies in place, run
 
 ```sh
-yarn start
+npm run start
 ```
 
 to spin up the application.
@@ -51,7 +41,7 @@ to spin up the application.
 Tests can be run with
 
 ```sh
-yarn coverage
+npm run coverage
 ```
 
 ## Use in micro-lc
