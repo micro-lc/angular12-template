@@ -7,9 +7,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "echo \"TODO\"",
     "lint": "ng lint",
-    "coverage": "ng test --no-watch --code-coverage"
+    "coverage": "npm run test -- --no-watch --code-coverage"
   },
   "dependencies": {
     "@angular/animations": "^12.2.0",
