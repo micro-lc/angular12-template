@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/micro-lc/angular12-template/actions">
-    <img src="https://github.com/micro-lc/angular12-template/workflows/Template%20CI/badge.svg" alt="Build Status" />
+    <img src="https://github.com/micro-lc/angular12-template/workflows/Main%20CI/badge.svg" alt="Build Status" />
   </a>
 
   <a href="https://coveralls.io/github/micro-lc/angular12-template?branch=main">
@@ -19,7 +19,8 @@
   </a>
 </p>
 
-Boilerplate for an Angular 12 [micro-lc parcel](https://micro-lc.io/docs/guides/applications/parcels). It implements the necessary features to work both standalone and in micro-lc.
+Boilerplate for an Angular 12 [micro-lc parcel](https://micro-lc.io/docs/guides/applications/parcels). It implements the
+necessary features to work both standalone and in micro-lc.
 
 ## Local development
 
