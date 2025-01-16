@@ -22,6 +22,8 @@
 Boilerplate for an Angular 12 [micro-lc parcel](https://micro-lc.io/docs/guides/applications/parcels). It implements the
 necessary features to work both standalone and in micro-lc.
 
+> ⚠️ Warning: This repository is no longer maintained.
+
 ## Local development
 
 First thing you need to do is install the dependencies running
